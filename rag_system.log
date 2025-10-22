@@ -1,0 +1,1490 @@
+2025-10-19 22:57:43,495 - firecrawl - WARNING - No API key provided for cloud service
+2025-10-19 23:16:47,097 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-19 23:25:52,531 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-19 23:28:34,648 - httpx - INFO - HTTP Request: GET https://926cd345-f5a7-4680-9957-731fb8b273f1.europe-west3-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 404 Not Found"
+2025-10-19 23:28:35,205 - httpx - INFO - HTTP Request: GET https://926cd345-f5a7-4680-9957-731fb8b273f1.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/Rag_system "HTTP/1.1 404 Not Found"
+2025-10-19 23:28:35,207 - database.vector_store - INFO - Creating collection 'Rag_system'
+2025-10-19 23:28:35,591 - httpx - INFO - HTTP Request: PUT https://926cd345-f5a7-4680-9957-731fb8b273f1.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/Rag_system "HTTP/1.1 404 Not Found"
+2025-10-19 23:37:00,706 - httpx - INFO - HTTP Request: GET https://926cd345-f5a7-4680-9957-731fb8b273f1.europe-west3-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 404 Not Found"
+2025-10-19 23:37:01,358 - httpx - INFO - HTTP Request: GET https://926cd345-f5a7-4680-9957-731fb8b273f1.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 404 Not Found"
+2025-10-19 23:37:01,359 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-19 23:37:01,602 - httpx - INFO - HTTP Request: PUT https://926cd345-f5a7-4680-9957-731fb8b273f1.europe-west3-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 404 Not Found"
+2025-10-21 16:03:17,367 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-21 16:06:40,575 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-21 16:06:40,575 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-21 16:06:43,335 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 16:06:43,337 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 16:06:43,544 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 16:06:44,191 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 404 Not Found"
+2025-10-21 16:06:46,203 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 16:06:46,296 - services.rag_service - ERROR - Query router health check failed
+2025-10-21 16:06:46,347 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 16:06:47,196 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-21 16:06:47,197 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-21 16:06:48,833 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 16:06:48,833 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 16:06:51,237 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-21 16:06:54,617 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-21 16:06:57,634 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-21 19:49:03,636 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-21 19:49:03,666 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-21 19:49:06,461 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 19:49:06,463 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 19:49:06,464 - __main__ - INFO - Initializing RAG System...
+2025-10-21 19:49:06,466 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 19:49:07,921 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 19:49:09,457 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 19:49:09,518 - services.rag_service - ERROR - Query router health check failed
+2025-10-21 19:49:10,217 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 19:49:10,219 - __main__ - INFO - RAG System initialized successfully
+2025-10-21 19:49:11,241 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-21 19:49:11,242 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-21 19:49:12,975 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 19:49:12,976 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 19:49:15,495 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-21 19:49:18,009 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-21 19:49:20,233 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-21 19:50:56,876 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-21 19:50:56,877 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-21 19:50:58,699 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 19:50:58,701 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 19:50:58,701 - __main__ - INFO - Initializing RAG System...
+2025-10-21 19:50:58,703 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 19:50:59,227 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 19:50:59,692 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 19:50:59,714 - services.rag_service - ERROR - Query router health check failed
+2025-10-21 19:51:00,180 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 19:51:00,180 - __main__ - INFO - RAG System initialized successfully
+2025-10-21 19:51:01,106 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-21 19:51:01,106 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-21 19:51:02,858 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 19:51:02,859 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 19:51:05,472 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-21 19:51:06,901 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-21 19:51:09,053 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-21 19:53:00,946 - database.vector_store - ERROR - Error getting collection info: 'CollectionInfo' object has no attribute 'name'
+2025-10-21 19:53:01,903 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 19:53:02,209 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 19:53:02,825 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 19:53:03,028 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 19:53:26,803 - ui.gradio_app - ERROR - Error handling file upload: no running event loop
+2025-10-21 19:53:35,009 - ui.gradio_app - ERROR - Error handling file upload: no running event loop
+2025-10-21 19:55:55,919 - ui.gradio_app - ERROR - Error handling URL: no running event loop
+2025-10-21 19:56:04,192 - ui.gradio_app - ERROR - Error handling URL: no running event loop
+2025-10-21 21:40:41,199 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-21 21:40:41,227 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-21 21:40:45,909 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 21:40:45,911 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 21:40:45,911 - __main__ - INFO - Initializing RAG System...
+2025-10-21 21:40:45,911 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 21:40:47,292 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 21:40:49,340 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 21:40:49,430 - services.rag_service - ERROR - Query router health check failed
+2025-10-21 21:40:49,909 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 21:40:49,910 - __main__ - INFO - RAG System initialized successfully
+2025-10-21 21:40:51,155 - database.vector_store - INFO - Using in-memory Qdrant client
+2025-10-21 21:40:51,156 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-21 21:40:53,761 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 21:40:53,762 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 21:40:56,712 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-21 21:41:00,701 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-21 21:41:05,346 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-21 21:53:25,928 - ui.gradio_app - ERROR - Error handling file upload: no running event loop
+2025-10-21 22:14:20,155 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-21 22:14:21,587 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 404 Not Found"
+2025-10-21 22:14:21,590 - database.vector_store - INFO - Creating collection 'Rag_System'
+2025-10-21 22:14:22,202 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:14:22,564 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/index?wait=true "HTTP/1.1 200 OK"
+2025-10-21 22:14:23,123 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/index?wait=true "HTTP/1.1 200 OK"
+2025-10-21 22:14:25,808 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 22:14:25,809 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 22:14:25,809 - __main__ - INFO - Initializing RAG System...
+2025-10-21 22:14:25,810 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 22:14:26,343 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:14:27,424 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 22:14:28,741 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 22:14:28,781 - services.rag_service - ERROR - Query router health check failed
+2025-10-21 22:14:29,216 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 22:14:29,217 - __main__ - INFO - RAG System initialized successfully
+2025-10-21 22:14:34,083 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-21 22:14:35,206 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:14:35,210 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-21 22:14:37,035 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 22:14:37,036 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 22:14:39,404 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-21 22:14:41,985 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-21 22:14:45,644 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-21 22:16:28,056 - ui.gradio_app - ERROR - Error processing uploaded file: RAG service not initialized
+2025-10-21 22:25:00,868 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-21 22:25:01,788 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:25:01,796 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-21 22:25:04,663 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 22:25:04,664 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 22:25:04,665 - __main__ - INFO - Initializing RAG System...
+2025-10-21 22:25:04,666 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 22:25:05,064 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:25:06,295 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 22:25:07,608 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 22:25:07,649 - services.rag_service - ERROR - Query router health check failed
+2025-10-21 22:25:08,180 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 22:25:08,181 - __main__ - INFO - RAG System initialized successfully
+2025-10-21 22:25:11,828 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-21 22:25:12,846 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:25:12,849 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-21 22:25:14,720 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 22:25:14,721 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 22:25:17,109 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-21 22:25:19,795 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-21 22:25:21,972 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-21 22:27:41,579 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 22:27:42,455 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:27:42,967 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 22:27:43,566 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 22:27:43,574 - services.rag_service - ERROR - Query router health check failed
+2025-10-21 22:27:44,138 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 22:27:44,159 - services.rag_service - INFO - Processing document d8a2f1e9-6d6a-4793-ae69-be1409439307 of type pdf
+2025-10-21 22:27:44,160 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-21 22:27:50,953 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 401 Unauthorized"
+2025-10-21 22:27:50,970 - core.document_processor - INFO - Processed PDF into 0 chunks
+2025-10-21 22:27:50,972 - services.rag_service - ERROR - Error processing document d8a2f1e9-6d6a-4793-ae69-be1409439307: No chunks generated from document
+2025-10-21 22:27:50,976 - ui.gradio_app - ERROR - Document processing failed: {'document_id': 'd8a2f1e9-6d6a-4793-ae69-be1409439307', 'status': 'error', 'error': 'No chunks generated from document', 'processing_time': 6.817060708999634}
+2025-10-21 22:47:52,099 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-21 22:47:53,010 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:47:53,018 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-21 22:47:54,943 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 22:47:54,944 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 22:47:54,946 - __main__ - INFO - Initializing RAG System...
+2025-10-21 22:47:54,948 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 22:47:55,269 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:47:55,989 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 22:47:56,574 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 22:47:56,617 - services.rag_service - ERROR - Query router health check failed
+2025-10-21 22:47:57,466 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 22:47:57,466 - __main__ - INFO - RAG System initialized successfully
+2025-10-21 22:48:01,106 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-21 22:48:02,027 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:48:02,030 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-21 22:48:03,836 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 22:48:03,837 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 22:48:06,328 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-21 22:48:07,860 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-21 22:48:09,964 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-21 22:49:09,696 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 22:49:10,738 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 22:49:11,357 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 22:49:11,670 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 22:49:11,678 - services.rag_service - ERROR - Query router health check failed
+2025-10-21 22:49:12,236 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 22:49:12,257 - services.rag_service - INFO - Processing document 6c5c45f4-60cc-4ef7-91c4-57d12af4b55b of type pdf
+2025-10-21 22:49:12,259 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-21 22:49:17,678 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-21 22:49:19,238 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/350912c5-a2dd-453e-90db-e44377d012fe "HTTP/1.1 200 OK"
+2025-10-21 22:49:21,773 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/350912c5-a2dd-453e-90db-e44377d012fe "HTTP/1.1 200 OK"
+2025-10-21 22:49:25,144 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/350912c5-a2dd-453e-90db-e44377d012fe "HTTP/1.1 200 OK"
+2025-10-21 22:49:29,534 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/350912c5-a2dd-453e-90db-e44377d012fe "HTTP/1.1 200 OK"
+2025-10-21 22:49:35,470 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/350912c5-a2dd-453e-90db-e44377d012fe "HTTP/1.1 200 OK"
+2025-10-21 22:49:41,410 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/350912c5-a2dd-453e-90db-e44377d012fe "HTTP/1.1 200 OK"
+2025-10-21 22:49:53,263 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/350912c5-a2dd-453e-90db-e44377d012fe "HTTP/1.1 200 OK"
+2025-10-21 22:49:59,687 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/350912c5-a2dd-453e-90db-e44377d012fe "HTTP/1.1 200 OK"
+2025-10-21 22:50:00,608 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/350912c5-a2dd-453e-90db-e44377d012fe/result/text "HTTP/1.1 200 OK"
+2025-10-21 22:50:00,615 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-21 22:50:00,620 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-21 22:50:01,121 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-21 22:50:01,241 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-21 22:50:02,654 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-21 22:50:02,670 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-21 22:50:02,672 - services.rag_service - INFO - Document 6c5c45f4-60cc-4ef7-91c4-57d12af4b55b processed successfully in 50.41s
+2025-10-21 22:50:02,675 - ui.gradio_app - INFO - Document processed successfully: {'document_id': '6c5c45f4-60cc-4ef7-91c4-57d12af4b55b', 'status': 'success', 'chunks_processed': 2, 'embeddings_generated': 2, 'processing_time': 50.414713621139526, 'input_type': 'pdf'}
+2025-10-21 22:50:55,127 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+2025-10-21 22:50:55,130 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-21 22:50:55,598 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-21 22:50:55,661 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-21 22:50:56,722 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-21 22:50:56,731 - database.vector_store - INFO - Found 0 similar chunks
+2025-10-21 22:51:20,936 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-21 22:51:21,607 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-21 22:51:21,703 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-21 22:51:22,731 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-21 22:51:22,736 - database.vector_store - INFO - Found 0 similar chunks
+2025-10-21 23:06:00,600 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-21 23:06:01,499 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 23:06:01,507 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-21 23:06:03,490 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 23:06:03,491 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 23:06:03,492 - __main__ - INFO - Initializing RAG System...
+2025-10-21 23:06:03,492 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 23:06:03,875 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 23:06:04,491 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 23:06:05,071 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 23:06:06,071 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 23:06:06,072 - __main__ - INFO - RAG System initialized successfully
+2025-10-21 23:06:10,416 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-21 23:06:11,351 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 23:06:11,361 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-21 23:06:13,548 - services.query_router - INFO - Groq client initialized successfully
+2025-10-21 23:06:13,549 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-21 23:06:16,358 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-21 23:06:19,344 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-21 23:06:21,393 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-21 23:06:45,165 - services.rag_service - INFO - Initializing RAG service...
+2025-10-21 23:06:46,194 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 23:06:46,852 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 23:06:47,160 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 23:06:47,461 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-21 23:06:47,479 - services.rag_service - INFO - Processing document 2c9a619d-d6bf-42bb-a071-80aa21763bae of type pdf
+2025-10-21 23:06:47,482 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-21 23:06:56,306 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-21 23:06:57,690 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/83675a70-5eda-4b61-bebd-9d78d7c2cdf0 "HTTP/1.1 200 OK"
+2025-10-21 23:07:00,606 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/83675a70-5eda-4b61-bebd-9d78d7c2cdf0 "HTTP/1.1 200 OK"
+2025-10-21 23:07:01,220 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/83675a70-5eda-4b61-bebd-9d78d7c2cdf0/result/text "HTTP/1.1 200 OK"
+2025-10-21 23:07:01,224 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-21 23:07:01,225 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-21 23:07:01,836 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-21 23:07:01,929 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-21 23:07:03,232 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-21 23:07:03,237 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-21 23:07:03,238 - services.rag_service - INFO - Document 2c9a619d-d6bf-42bb-a071-80aa21763bae processed successfully in 15.76s
+2025-10-21 23:07:03,240 - ui.gradio_app - INFO - Document processed successfully: {'document_id': '2c9a619d-d6bf-42bb-a071-80aa21763bae', 'status': 'success', 'chunks_processed': 2, 'embeddings_generated': 2, 'processing_time': 15.75925588607788, 'input_type': 'pdf'}
+2025-10-21 23:07:30,252 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+2025-10-21 23:07:30,255 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-21 23:07:30,919 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-21 23:07:30,985 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-21 23:07:32,454 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-21 23:07:32,477 - database.vector_store - INFO - Found 0 similar chunks
+2025-10-21 23:07:54,406 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-21 23:07:54,881 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-21 23:07:54,971 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-21 23:07:56,000 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-21 23:07:56,027 - database.vector_store - INFO - Found 0 similar chunks
+2025-10-21 23:08:01,226 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 23:08:01,235 - services.memory_service - ERROR - Error getting memory stats: Event loop is closed
+2025-10-21 23:08:01,841 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 23:08:02,353 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 23:08:02,967 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-21 23:08:03,479 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-21 23:08:03,632 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-21 23:08:20,921 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-21 23:08:21,917 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-21 23:08:22,071 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-21 23:08:23,037 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-21 23:08:23,048 - database.vector_store - INFO - Found 0 similar chunks
+2025-10-22 09:50:45,138 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 09:50:46,091 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 09:50:46,128 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 09:50:48,763 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 09:50:48,764 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 09:50:48,764 - __main__ - INFO - Initializing RAG System...
+2025-10-22 09:50:48,765 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 09:50:49,049 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 09:50:49,830 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 09:50:51,451 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 09:50:51,867 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 09:50:51,868 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 09:50:55,180 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 09:50:56,070 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 09:50:56,073 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 09:50:57,680 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 09:50:57,681 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 09:51:00,010 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 09:51:02,571 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 09:51:04,806 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-22 09:56:47,277 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 09:56:48,282 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 09:56:49,001 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 09:56:49,292 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 09:56:49,695 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 09:56:49,702 - services.rag_service - INFO - Processing document a2b833b3-91a5-4ea0-990a-c77a9fbb6f18 of type pdf
+2025-10-22 09:56:49,702 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 09:56:57,078 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 09:56:58,485 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/054cf8fa-0882-4a3b-8795-8081419d6d5e "HTTP/1.1 200 OK"
+2025-10-22 09:57:00,858 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/054cf8fa-0882-4a3b-8795-8081419d6d5e "HTTP/1.1 200 OK"
+2025-10-22 09:57:01,318 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/054cf8fa-0882-4a3b-8795-8081419d6d5e/result/text "HTTP/1.1 200 OK"
+2025-10-22 09:57:01,325 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 09:57:01,326 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 09:57:01,807 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 09:57:01,856 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 09:57:03,549 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 09:57:04,646 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 09:57:04,648 - services.rag_service - INFO - Document a2b833b3-91a5-4ea0-990a-c77a9fbb6f18 processed successfully in 14.95s
+2025-10-22 09:57:04,654 - ui.gradio_app - INFO - Document processed successfully: {'document_id': 'a2b833b3-91a5-4ea0-990a-c77a9fbb6f18', 'status': 'success', 'chunks_processed': 2, 'embeddings_generated': 2, 'processing_time': 14.946305990219116, 'input_type': 'pdf'}
+2025-10-22 10:08:09,895 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+2025-10-22 10:08:09,897 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 10:08:12,271 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 10:08:12,297 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 10:08:13,427 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 10:08:13,430 - database.vector_store - INFO - Found 0 similar chunks
+2025-10-22 11:35:25,964 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 11:35:26,828 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 11:35:26,867 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 11:35:31,214 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 11:35:31,215 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 11:35:31,216 - __main__ - INFO - Initializing RAG System...
+2025-10-22 11:35:31,216 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 11:35:31,479 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 11:35:32,192 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 11:35:34,983 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 11:35:35,779 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 11:35:35,780 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 11:35:40,622 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 11:35:41,397 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 11:35:41,408 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 11:35:43,224 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 11:35:43,225 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 11:35:45,712 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 11:35:50,866 - httpx - INFO - HTTP Request: GET http://localhost:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 11:35:53,370 - httpx - INFO - HTTP Request: HEAD http://localhost:7860/ "HTTP/1.1 200 OK"
+2025-10-22 11:36:44,793 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 11:36:45,621 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 11:36:46,084 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 11:36:46,350 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 11:36:46,771 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 11:36:46,801 - services.rag_service - INFO - Processing document 984cf434-b6d3-433b-bf29-40ad43dd64e9 of type pdf
+2025-10-22 11:36:46,803 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 11:36:57,462 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 11:36:58,865 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4ef387f6-1bd0-48ed-9fbd-a89c036ec3b3 "HTTP/1.1 200 OK"
+2025-10-22 11:37:01,241 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4ef387f6-1bd0-48ed-9fbd-a89c036ec3b3 "HTTP/1.1 200 OK"
+2025-10-22 11:37:01,759 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/4ef387f6-1bd0-48ed-9fbd-a89c036ec3b3/result/text "HTTP/1.1 200 OK"
+2025-10-22 11:37:01,766 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 11:37:01,767 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 11:37:02,404 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 11:37:02,443 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 11:37:03,546 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 11:37:04,554 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 11:37:04,556 - services.rag_service - INFO - Document 984cf434-b6d3-433b-bf29-40ad43dd64e9 processed successfully in 17.76s
+2025-10-22 11:37:04,559 - ui.gradio_app - INFO - Document processed successfully: {'document_id': '984cf434-b6d3-433b-bf29-40ad43dd64e9', 'status': 'success', 'chunks_processed': 2, 'embeddings_generated': 2, 'processing_time': 17.755528450012207, 'input_type': 'pdf'}
+2025-10-22 11:37:37,207 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+2025-10-22 11:37:37,208 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 11:37:37,579 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 11:37:37,637 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 11:37:38,427 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 11:37:38,441 - database.vector_store - INFO - Found 0 similar chunks
+2025-10-22 14:13:52,609 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 14:13:53,561 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 14:13:53,615 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 14:13:57,586 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 14:13:57,586 - __main__ - INFO - Initializing RAG System...
+2025-10-22 14:13:57,586 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 14:13:57,849 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 14:13:58,904 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 14:14:02,765 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 14:14:02,846 - services.rag_service - ERROR - Error initializing RAG service: 'MemoryService' object has no attribute 'is_healthy'
+2025-10-22 14:14:07,699 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 14:14:08,504 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 14:14:08,512 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 14:14:08,790 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 14:14:08,795 - database.vector_store - ERROR - Error getting collection info: 'OptimizersStatusOneOf' object has no attribute 'status'
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\database\vector_store.py", line 210, in get_collection_info
+    'optimizer_status': collection_info.optimizer_status.status if hasattr(collection_info, 'optimizer_status') else 'unknown'
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'OptimizersStatusOneOf' object has no attribute 'status'
+2025-10-22 14:14:09,591 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 15:03:42,477 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 15:03:43,245 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 15:03:43,252 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 15:03:45,665 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 15:03:45,665 - __main__ - INFO - Initializing RAG System...
+2025-10-22 15:03:45,666 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 15:03:45,925 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 15:03:46,629 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 15:03:48,074 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 15:03:48,530 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 15:03:48,566 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 15:03:48,566 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 15:03:52,097 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 15:03:52,871 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 15:03:52,874 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 15:03:54,507 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 15:03:56,851 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 15:04:06,849 - __main__ - ERROR - Error in web mode: Cannot find empty port in range: 7860-7860. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2025-10-22 15:31:45,619 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 15:31:46,492 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 15:31:46,501 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 15:31:48,287 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 15:31:48,288 - __main__ - INFO - Initializing RAG System...
+2025-10-22 15:31:48,288 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 15:31:48,592 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 15:31:49,242 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 15:31:49,733 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 15:31:50,278 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 15:31:50,314 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 15:31:50,315 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 15:31:53,741 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 15:31:54,602 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 15:31:54,604 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 15:31:56,317 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 15:31:58,635 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 15:32:02,659 - __main__ - ERROR - Error in web mode: Cannot find empty port in range: 7860-7860. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2025-10-22 15:52:08,921 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 15:52:10,008 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 15:52:10,070 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 15:52:13,165 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 15:52:13,165 - __main__ - INFO - Initializing RAG System...
+2025-10-22 15:52:13,166 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 15:52:13,442 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 15:52:14,188 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 15:52:16,501 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 15:52:17,828 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 15:52:17,870 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 15:52:17,872 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 15:52:21,457 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 15:52:22,254 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 15:52:22,258 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 15:52:23,996 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 15:52:26,386 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 15:52:30,689 - __main__ - ERROR - Error in web mode: Cannot find empty port in range: 7860-7860. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2025-10-22 16:22:24,082 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 16:22:24,984 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:22:24,993 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 16:22:27,127 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 16:22:27,127 - __main__ - INFO - Initializing RAG System...
+2025-10-22 16:22:27,128 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 16:22:27,408 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:22:28,113 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 16:22:29,499 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 16:22:29,961 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 16:22:29,998 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 16:22:29,999 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 16:22:33,287 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 16:22:38,306 - __main__ - ERROR - Error in web mode: timed out
+2025-10-22 16:24:01,542 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 16:24:02,362 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:24:02,369 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 16:24:04,161 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 16:24:04,162 - __main__ - INFO - Initializing RAG System...
+2025-10-22 16:24:04,162 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 16:24:04,419 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:24:04,856 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 16:24:05,317 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 16:24:06,092 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 16:24:06,127 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 16:24:06,128 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 16:24:09,507 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 16:24:10,309 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:24:10,312 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 16:24:11,954 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 16:24:14,222 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 16:24:14,514 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 16:24:19,443 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 16:26:33,547 - ui.gradio_app - ERROR - Error processing uploaded file: 'RAGService' object has no attribute '_initialized'
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\ui\gradio_app.py", line 363, in process_file_upload_sync
+    if not rag_service._initialized:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RAGService' object has no attribute '_initialized'. Did you mean: 'initialize'?
+2025-10-22 16:47:11,105 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 16:47:11,927 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:47:11,939 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 16:47:14,280 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 16:47:14,280 - __main__ - INFO - Initializing RAG System...
+2025-10-22 16:47:14,281 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 16:47:14,567 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:47:15,378 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 16:47:16,339 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 16:47:17,750 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 16:47:17,789 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 16:47:17,793 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 16:47:21,381 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 16:47:22,157 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:47:22,160 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 16:47:23,924 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 16:47:26,361 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 16:47:26,721 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 16:47:27,558 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-22 16:47:29,452 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 16:56:29,801 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 16:56:30,675 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:56:30,680 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 16:56:33,599 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 16:56:33,600 - __main__ - INFO - Initializing RAG System...
+2025-10-22 16:56:33,601 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 16:56:33,872 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:56:34,569 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 16:56:39,552 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 16:56:40,610 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 16:56:40,644 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 16:56:40,645 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 16:56:44,544 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 16:56:45,664 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:56:45,668 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 16:56:47,385 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 16:56:49,901 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 16:56:49,949 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 16:56:49,983 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-22 16:56:52,079 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 16:58:13,362 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 16:58:14,176 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:58:14,826 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 16:58:15,398 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 16:58:15,832 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 16:58:15,868 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 16:58:15,870 - services.rag_service - INFO - Processing document d7dbd3aa-8195-47ed-bc34-3c7f54a53b7b of type pdf
+2025-10-22 16:58:15,874 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 16:58:24,287 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 16:58:25,689 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/45a2738a-42dc-4dff-8894-5d5202e7402d "HTTP/1.1 200 OK"
+2025-10-22 16:58:28,075 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/45a2738a-42dc-4dff-8894-5d5202e7402d "HTTP/1.1 200 OK"
+2025-10-22 16:58:28,542 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/45a2738a-42dc-4dff-8894-5d5202e7402d/result/text "HTTP/1.1 200 OK"
+2025-10-22 16:58:28,569 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 16:58:28,574 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 16:58:28,978 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 16:58:29,036 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 16:58:30,369 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 16:58:31,376 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 16:58:31,378 - services.rag_service - INFO - Document d7dbd3aa-8195-47ed-bc34-3c7f54a53b7b processed successfully in 15.51s
+2025-10-22 16:59:11,920 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+Traceback (most recent call last):
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 534, in send_packed_command
+    self._writer.writelines(command)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 343, in writelines
+    self._transport.writelines(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\transports.py", line 123, in writelines
+    self.write(data)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 366, in write
+    self._loop_writing(data=bytes(data))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\services\memory_service.py", line 405, in get_conversation_context
+    messages = await self.redis_client.lrange(key, 0, -1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 677, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\retry.py", line 50, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 651, in _send_command_parse_response
+    await conn.send_command(*args)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 559, in send_command
+    await self.send_packed_command(
+        self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    )
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 554, in send_packed_command
+    await self.disconnect(nowait=True)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 479, in disconnect
+    self._writer.close()  # type: ignore[union-attr]
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 352, in close
+    return self._transport.close()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-10-22 16:59:13,616 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 16:59:14,035 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 16:59:14,057 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 16:59:14,828 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 16:59:14,833 - database.vector_store - INFO - Searching in collection with 10 vectors
+2025-10-22 16:59:15,106 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 16:59:15,109 - database.vector_store - WARNING - No results found for query. Collection has 10 vectors
+2025-10-22 16:59:15,110 - database.vector_store - WARNING - Query embedding dimension: 1024
+2025-10-22 16:59:15,110 - database.vector_store - WARNING - Score threshold: 0.7
+2025-10-22 16:59:15,111 - database.vector_store - INFO - Found 0 similar chunks with scores: []
+2025-10-22 17:33:23,066 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 17:33:24,228 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 17:33:24,255 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 17:33:26,688 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 17:33:26,689 - __main__ - INFO - Initializing RAG System...
+2025-10-22 17:33:26,689 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 17:33:26,948 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 17:33:27,561 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 17:33:27,653 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 17:33:28,041 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 17:33:28,076 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 17:33:28,077 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 17:33:31,321 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 17:33:32,156 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 17:33:32,159 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 17:33:33,823 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 17:33:36,152 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 17:33:37,087 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 17:33:37,219 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-22 17:33:39,116 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 17:36:02,738 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 17:36:03,571 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 17:36:04,029 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 17:36:04,048 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 17:36:04,906 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 17:36:04,943 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 17:36:04,944 - services.rag_service - INFO - Processing document 9875a14e-6aea-416f-bb59-c3acaf7432d6 of type pdf
+2025-10-22 17:36:04,946 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 17:36:14,197 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 17:36:20,021 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/dc919bd0-701c-4e76-a243-ebba05833236 "HTTP/1.1 200 OK"
+2025-10-22 17:36:20,580 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/dc919bd0-701c-4e76-a243-ebba05833236/result/text "HTTP/1.1 200 OK"
+2025-10-22 17:36:20,584 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 17:36:20,585 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 17:36:21,019 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 17:36:21,071 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 17:36:22,222 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 17:36:23,234 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 17:36:23,235 - services.rag_service - INFO - Document 9875a14e-6aea-416f-bb59-c3acaf7432d6 processed successfully in 18.29s
+2025-10-22 17:36:41,421 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+Traceback (most recent call last):
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 534, in send_packed_command
+    self._writer.writelines(command)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 343, in writelines
+    self._transport.writelines(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\transports.py", line 123, in writelines
+    self.write(data)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 366, in write
+    self._loop_writing(data=bytes(data))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\services\memory_service.py", line 405, in get_conversation_context
+    messages = await self.redis_client.lrange(key, 0, -1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 677, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\retry.py", line 50, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 651, in _send_command_parse_response
+    await conn.send_command(*args)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 559, in send_command
+    await self.send_packed_command(
+        self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    )
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 554, in send_packed_command
+    await self.disconnect(nowait=True)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 479, in disconnect
+    self._writer.close()  # type: ignore[union-attr]
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 352, in close
+    return self._transport.close()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-10-22 17:36:41,678 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 17:36:42,030 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 17:36:42,047 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 17:36:42,844 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 17:36:42,849 - database.vector_store - INFO - Searching in collection with 12 vectors
+2025-10-22 17:36:43,137 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 17:36:43,143 - database.vector_store - WARNING - No results found for query. Collection has 12 vectors
+2025-10-22 17:36:43,144 - database.vector_store - WARNING - Query embedding dimension: 1024
+2025-10-22 17:36:43,145 - database.vector_store - WARNING - Score threshold: 0.7
+2025-10-22 17:36:43,146 - database.vector_store - INFO - Found 0 similar chunks with scores: []
+2025-10-22 17:59:50,996 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 17:59:51,799 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 17:59:51,814 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 17:59:55,866 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 17:59:55,866 - __main__ - INFO - Initializing RAG System...
+2025-10-22 17:59:55,867 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 17:59:56,141 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 17:59:56,840 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 17:59:56,847 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 17:59:58,181 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 17:59:58,221 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 17:59:58,222 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 18:00:01,586 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 18:00:02,392 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:00:02,394 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 18:00:04,070 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 18:00:06,489 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 18:00:06,926 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 18:00:07,039 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-22 18:00:08,969 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 18:10:48,333 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 18:10:49,309 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:10:49,952 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 18:10:49,977 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 18:10:50,310 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 18:10:50,342 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 18:10:50,343 - services.rag_service - INFO - Processing document dfb11fbb-1c21-48b8-a4b1-775c37ea2beb of type pdf
+2025-10-22 18:10:50,343 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 18:10:57,182 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 18:10:58,579 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/87ecfc7c-17d9-4cdc-aa6c-5472f8829914 "HTTP/1.1 200 OK"
+2025-10-22 18:11:01,046 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/87ecfc7c-17d9-4cdc-aa6c-5472f8829914 "HTTP/1.1 200 OK"
+2025-10-22 18:11:01,541 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/87ecfc7c-17d9-4cdc-aa6c-5472f8829914/result/text "HTTP/1.1 200 OK"
+2025-10-22 18:11:01,548 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 18:11:01,551 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 18:11:01,966 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 18:11:02,023 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 18:11:03,207 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 18:11:05,217 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 18:11:05,222 - services.rag_service - INFO - Document dfb11fbb-1c21-48b8-a4b1-775c37ea2beb processed successfully in 14.88s
+2025-10-22 18:11:56,669 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+Traceback (most recent call last):
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 534, in send_packed_command
+    self._writer.writelines(command)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 343, in writelines
+    self._transport.writelines(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\transports.py", line 123, in writelines
+    self.write(data)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 366, in write
+    self._loop_writing(data=bytes(data))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\services\memory_service.py", line 405, in get_conversation_context
+    messages = await self.redis_client.lrange(key, 0, -1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 677, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\retry.py", line 50, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 651, in _send_command_parse_response
+    await conn.send_command(*args)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 559, in send_command
+    await self.send_packed_command(
+        self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    )
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 554, in send_packed_command
+    await self.disconnect(nowait=True)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 479, in disconnect
+    self._writer.close()  # type: ignore[union-attr]
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 352, in close
+    return self._transport.close()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-10-22 18:11:56,883 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 18:11:57,325 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 18:11:57,348 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 18:11:58,125 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:11:58,131 - database.vector_store - INFO - Searching in collection with 14 vectors
+2025-10-22 18:11:58,403 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 18:11:58,433 - database.vector_store - WARNING - No results found for query. Collection has 14 vectors
+2025-10-22 18:11:58,434 - database.vector_store - WARNING - Query embedding dimension: 1024
+2025-10-22 18:11:58,436 - database.vector_store - WARNING - Score threshold: 0.7
+2025-10-22 18:11:58,437 - database.vector_store - INFO - Found 0 similar chunks with scores: []
+2025-10-22 18:31:04,290 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 18:31:05,147 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:31:05,162 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 18:31:07,408 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 18:31:07,409 - __main__ - INFO - Initializing RAG System...
+2025-10-22 18:31:07,409 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 18:31:07,684 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:31:08,583 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 18:31:08,607 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 18:31:08,989 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 18:31:09,029 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 18:31:09,032 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 18:31:12,472 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 18:31:13,397 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:31:13,401 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 18:31:15,170 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 18:31:17,520 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 18:31:17,820 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 18:31:17,931 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-22 18:31:19,858 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 18:35:18,170 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 18:35:19,232 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:35:19,724 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 18:35:19,743 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 18:35:20,135 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 18:35:20,524 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 18:35:20,526 - services.rag_service - INFO - Processing document 0397ce93-0cfb-4e0a-a898-0f9c0325d175 of type pdf
+2025-10-22 18:35:20,534 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 18:35:53,450 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 18:35:55,046 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fcf82f87-5951-4bf3-9453-6ef02132b9a4 "HTTP/1.1 200 OK"
+2025-10-22 18:35:57,522 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fcf82f87-5951-4bf3-9453-6ef02132b9a4 "HTTP/1.1 200 OK"
+2025-10-22 18:35:58,039 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/fcf82f87-5951-4bf3-9453-6ef02132b9a4/result/text "HTTP/1.1 200 OK"
+2025-10-22 18:35:58,042 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 18:35:58,043 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 18:35:58,429 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 18:35:58,490 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 18:35:59,705 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 18:36:01,715 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 18:36:01,719 - services.rag_service - INFO - Document 0397ce93-0cfb-4e0a-a898-0f9c0325d175 processed successfully in 41.19s
+2025-10-22 18:37:32,195 - ui.gradio_app - ERROR - Error processing query: 'RAGService' object has no attribute 'query_stream'
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\ui\gradio_app.py", line 457, in query_documents_stream
+    async for response_chunk in rag_service.query_stream(query, conversation_id):
+                                ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RAGService' object has no attribute 'query_stream'
+2025-10-22 18:41:11,293 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 18:41:12,195 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:41:12,203 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 18:41:14,086 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 18:41:14,086 - __main__ - INFO - Initializing RAG System...
+2025-10-22 18:41:14,087 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 18:41:14,395 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:41:15,088 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 18:41:15,106 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 18:41:15,471 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 18:41:15,507 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 18:41:15,508 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 18:41:18,937 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 18:41:19,812 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:41:19,813 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 18:41:21,560 - services.query_router - INFO - Groq client initialized successfully
+2025-10-22 18:41:23,603 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 18:41:23,660 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-22 18:41:23,961 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 18:41:25,610 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 18:43:08,032 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 18:43:08,890 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:43:09,389 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 18:43:09,405 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 18:43:09,821 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 18:43:09,855 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 18:43:09,858 - services.rag_service - INFO - Processing document 6252ab1a-af10-4d41-8bb1-91766e61e305 of type pdf
+2025-10-22 18:43:09,861 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 18:43:16,302 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 18:43:17,724 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/27d05776-c523-4594-af4b-47c5fdda0970 "HTTP/1.1 200 OK"
+2025-10-22 18:43:20,151 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/27d05776-c523-4594-af4b-47c5fdda0970 "HTTP/1.1 200 OK"
+2025-10-22 18:43:20,848 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/27d05776-c523-4594-af4b-47c5fdda0970/result/text "HTTP/1.1 200 OK"
+2025-10-22 18:43:20,865 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 18:43:20,871 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 18:43:21,257 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 18:43:21,308 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 18:43:22,490 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 18:43:24,504 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 18:43:24,506 - services.rag_service - INFO - Document 6252ab1a-af10-4d41-8bb1-91766e61e305 processed successfully in 14.65s
+2025-10-22 18:47:40,636 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+Traceback (most recent call last):
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 534, in send_packed_command
+    self._writer.writelines(command)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 343, in writelines
+    self._transport.writelines(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\transports.py", line 123, in writelines
+    self.write(data)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 366, in write
+    self._loop_writing(data=bytes(data))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\services\memory_service.py", line 405, in get_conversation_context
+    messages = await self.redis_client.lrange(key, 0, -1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 677, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\retry.py", line 50, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 651, in _send_command_parse_response
+    await conn.send_command(*args)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 559, in send_command
+    await self.send_packed_command(
+        self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    )
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 554, in send_packed_command
+    await self.disconnect(nowait=True)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 479, in disconnect
+    self._writer.close()  # type: ignore[union-attr]
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 352, in close
+    return self._transport.close()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-10-22 18:47:40,793 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 18:47:41,357 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 18:47:41,400 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 18:47:42,446 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 18:47:42,450 - database.vector_store - INFO - Searching in collection with 18 vectors
+2025-10-22 18:47:42,732 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 18:47:42,768 - database.vector_store - WARNING - No results found for query. Collection has 18 vectors
+2025-10-22 18:47:42,769 - database.vector_store - WARNING - Query embedding dimension: 1024
+2025-10-22 18:47:42,770 - database.vector_store - WARNING - Score threshold: 0.3
+2025-10-22 18:47:42,772 - database.vector_store - INFO - Found 0 similar chunks with scores: []
+2025-10-22 19:37:14,846 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 19:37:15,708 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:37:15,733 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 19:37:18,301 - services.query_router - INFO - QueryRouter initialized with Groq, Cohere, and VectorQueryInterface
+2025-10-22 19:37:18,301 - __main__ - INFO - Initializing RAG System...
+2025-10-22 19:37:18,302 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 19:37:18,557 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:37:19,444 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 19:37:19,481 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 19:37:19,837 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 19:37:19,875 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 19:37:19,876 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 19:37:22,511 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 19:37:23,369 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:37:23,383 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 19:37:25,943 - services.query_router - INFO - QueryRouter initialized with Groq, Cohere, and VectorQueryInterface
+2025-10-22 19:37:28,322 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 19:37:28,747 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 19:37:29,048 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-22 19:37:31,106 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 19:38:19,544 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 19:38:20,394 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:38:20,847 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 19:38:20,856 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 19:38:21,277 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 19:38:21,318 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 19:38:21,322 - services.rag_service - INFO - Processing document 3e2ae97a-380a-4034-9692-d3f77dbe4de3 of type pdf
+2025-10-22 19:38:21,325 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 19:38:26,628 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 19:38:28,039 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/485ec173-30b7-41fd-b3f1-22d94a7dff18 "HTTP/1.1 200 OK"
+2025-10-22 19:38:30,427 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/485ec173-30b7-41fd-b3f1-22d94a7dff18 "HTTP/1.1 200 OK"
+2025-10-22 19:38:30,978 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/485ec173-30b7-41fd-b3f1-22d94a7dff18/result/text "HTTP/1.1 200 OK"
+2025-10-22 19:38:30,983 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 19:38:30,984 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 19:38:31,579 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 19:38:31,641 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 19:38:32,755 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 19:38:34,766 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 19:38:34,770 - services.rag_service - INFO - Document 3e2ae97a-380a-4034-9692-d3f77dbe4de3 processed successfully in 13.45s
+2025-10-22 19:39:14,996 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+Traceback (most recent call last):
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 534, in send_packed_command
+    self._writer.writelines(command)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 343, in writelines
+    self._transport.writelines(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\transports.py", line 123, in writelines
+    self.write(data)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 366, in write
+    self._loop_writing(data=bytes(data))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\services\memory_service.py", line 405, in get_conversation_context
+    messages = await self.redis_client.lrange(key, 0, -1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 677, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\retry.py", line 50, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 651, in _send_command_parse_response
+    await conn.send_command(*args)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 559, in send_command
+    await self.send_packed_command(
+        self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    )
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 554, in send_packed_command
+    await self.disconnect(nowait=True)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 479, in disconnect
+    self._writer.close()  # type: ignore[union-attr]
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 352, in close
+    return self._transport.close()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-10-22 19:39:18,174 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 19:39:18,249 - services.query_router - INFO - Generated retrieval plan: {'core_query': 'projects', 'tools': ['search_vector'], 'filters': {}, 'reasoning': 'The user request is very general with no specified filters, so a basic semantic vector search on the keyword "projects" is sufficient.'}
+2025-10-22 19:39:19,241 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:39:19,248 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 19:39:19,724 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 19:39:19,763 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 19:39:20,038 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:39:20,042 - database.vector_store - INFO - Searching in collection with 20 vectors
+2025-10-22 19:39:20,325 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 19:39:20,327 - database.vector_store - WARNING - No results found for query. Collection has 20 vectors
+2025-10-22 19:39:20,327 - database.vector_store - WARNING - Query embedding dimension: 1024
+2025-10-22 19:39:20,328 - database.vector_store - WARNING - Score threshold: 0.3
+2025-10-22 19:39:20,329 - database.vector_store - INFO - Found 0 similar chunks with scores: []
+2025-10-22 19:46:36,072 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 19:46:37,036 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:46:37,098 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 19:46:39,842 - services.query_router - INFO - QueryRouter initialized with Groq, Cohere, and VectorQueryInterface
+2025-10-22 19:46:39,843 - __main__ - INFO - Initializing RAG System...
+2025-10-22 19:46:39,843 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 19:46:40,119 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:46:40,773 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 19:46:40,832 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 19:46:41,203 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 19:46:41,236 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 19:46:41,237 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 19:46:44,007 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 19:46:44,795 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:46:44,816 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 19:46:48,017 - services.query_router - INFO - QueryRouter initialized with Groq, Cohere, and VectorQueryInterface
+2025-10-22 19:46:51,268 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 19:46:54,894 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 19:46:59,899 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 19:47:59,716 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 19:48:00,499 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:48:00,937 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 19:48:00,941 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 19:48:01,265 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 19:48:01,300 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 19:48:01,310 - services.rag_service - INFO - Processing document f0f0a0a0-e66c-45cc-852a-e7fd971d6e4a of type pdf
+2025-10-22 19:48:01,311 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 19:48:07,003 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 19:48:08,457 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/3e3d079c-aa6d-47f4-ac2f-9c1b834d12b3 "HTTP/1.1 200 OK"
+2025-10-22 19:48:10,829 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/3e3d079c-aa6d-47f4-ac2f-9c1b834d12b3 "HTTP/1.1 200 OK"
+2025-10-22 19:48:11,430 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/3e3d079c-aa6d-47f4-ac2f-9c1b834d12b3/result/text "HTTP/1.1 200 OK"
+2025-10-22 19:48:11,434 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 19:48:11,435 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 19:48:11,866 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 19:48:11,899 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 19:48:12,995 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 19:48:15,005 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 19:48:15,007 - services.rag_service - INFO - Document f0f0a0a0-e66c-45cc-852a-e7fd971d6e4a processed successfully in 13.70s
+2025-10-22 19:48:42,302 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+Traceback (most recent call last):
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 534, in send_packed_command
+    self._writer.writelines(command)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 343, in writelines
+    self._transport.writelines(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\transports.py", line 123, in writelines
+    self.write(data)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 366, in write
+    self._loop_writing(data=bytes(data))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\services\memory_service.py", line 405, in get_conversation_context
+    messages = await self.redis_client.lrange(key, 0, -1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 677, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\retry.py", line 50, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 651, in _send_command_parse_response
+    await conn.send_command(*args)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 559, in send_command
+    await self.send_packed_command(
+        self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    )
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 554, in send_packed_command
+    await self.disconnect(nowait=True)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 479, in disconnect
+    self._writer.close()  # type: ignore[union-attr]
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 352, in close
+    return self._transport.close()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-10-22 19:48:44,619 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 19:48:44,686 - services.query_router - ERROR - Failed to generate retrieval plan: Expecting value: line 1 column 1 (char 0)
+2025-10-22 19:48:45,484 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:48:45,489 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 19:48:45,861 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 19:48:45,880 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 19:48:46,162 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:48:46,167 - database.vector_store - INFO - Searching in collection with 22 vectors
+2025-10-22 19:48:46,451 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 19:48:46,459 - database.vector_store - INFO - Found 5 similar chunks with scores: [0.2524377, 0.2524377, 0.2524377, 0.2524377, 0.2524377]
+2025-10-22 19:48:50,749 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 19:49:24,504 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 19:49:24,555 - services.query_router - ERROR - Failed to generate retrieval plan: Expecting value: line 1 column 1 (char 0)
+2025-10-22 19:49:25,338 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:49:25,343 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 19:49:25,704 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 19:49:25,773 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 19:49:26,051 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:49:26,057 - database.vector_store - INFO - Searching in collection with 22 vectors
+2025-10-22 19:49:26,344 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 19:49:26,346 - database.vector_store - INFO - Found 5 similar chunks with scores: [0.24093017, 0.24091733, 0.24091342, 0.24091071, 0.24091016]
+2025-10-22 19:49:38,485 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 19:58:48,741 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 19:58:48,769 - services.query_router - INFO - Generated retrieval plan: {'core_query': 'summarise content', 'tools': ['search_vector'], 'filters': {}, 'reasoning': 'The user asked to "summarise it" but no specific topic or filters were given, so we use a broad semantic vector search to retrieve relevant documents for summarisation.'}
+2025-10-22 19:58:49,719 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:58:49,724 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 19:58:50,413 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 19:58:50,455 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 19:58:50,741 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 19:58:50,750 - database.vector_store - INFO - Searching in collection with 22 vectors
+2025-10-22 19:58:51,068 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 19:58:51,089 - database.vector_store - INFO - Found 5 similar chunks with scores: [0.22669682, 0.22669174, 0.22669134, 0.22668566, 0.22668248]
+2025-10-22 19:59:05,982 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 20:34:33,184 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 20:34:34,269 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 20:34:34,368 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 20:34:36,842 - services.query_router - INFO - QueryRouter initialized with Groq, Cohere, and VectorQueryInterface
+2025-10-22 20:34:36,842 - __main__ - INFO - Initializing RAG System...
+2025-10-22 20:34:36,843 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 20:34:37,146 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 20:34:37,825 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 20:34:38,191 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/rerank "HTTP/1.1 404 Not Found"
+2025-10-22 20:34:38,193 - services.query_router - WARNING - Cohere rerank health check failed: status_code: 404, body: {'id': 'af430f7d-2bc3-4f66-922a-eaf12b9e0e13', 'message': "model 'rerank-english-v2.0' not found, make sure the correct model ID was used and that you have access to the model."}
+2025-10-22 20:34:38,196 - services.rag_service - ERROR - Query router health check failed
+2025-10-22 20:34:38,625 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 20:34:38,660 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 20:34:38,661 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 20:34:41,178 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 20:34:42,016 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 20:34:42,018 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 20:34:44,461 - services.query_router - INFO - QueryRouter initialized with Groq, Cohere, and VectorQueryInterface
+2025-10-22 20:34:47,064 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 20:34:48,136 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 20:34:48,359 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-22 20:34:50,529 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 20:43:43,408 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 20:43:45,031 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 20:43:45,655 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 20:43:45,942 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/rerank "HTTP/1.1 404 Not Found"
+2025-10-22 20:43:45,946 - services.query_router - WARNING - Cohere rerank health check failed: status_code: 404, body: {'id': 'f9d09824-8f01-40ee-8f7f-bd2438ea2bd0', 'message': "model 'rerank-english-v2.0' not found, make sure the correct model ID was used and that you have access to the model."}
+2025-10-22 20:43:45,948 - services.rag_service - ERROR - Query router health check failed
+2025-10-22 20:43:46,621 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 20:43:46,655 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 20:43:46,656 - services.rag_service - INFO - Processing document a5eef74d-09ad-4a29-a047-8ebc4aff04f6 of type pdf
+2025-10-22 20:43:46,657 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 20:43:53,292 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 20:43:54,757 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/61170581-3dbe-4b1a-842d-543dd558e2af "HTTP/1.1 200 OK"
+2025-10-22 20:43:57,204 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/61170581-3dbe-4b1a-842d-543dd558e2af "HTTP/1.1 200 OK"
+2025-10-22 20:43:57,803 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/61170581-3dbe-4b1a-842d-543dd558e2af/result/text "HTTP/1.1 200 OK"
+2025-10-22 20:43:57,806 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 20:43:57,806 - services.embedding_service - INFO - Generating embeddings for 2 texts
+2025-10-22 20:43:58,167 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 20:43:58,215 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 20:43:59,339 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 20:44:01,349 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 20:44:01,351 - services.rag_service - INFO - Document a5eef74d-09ad-4a29-a047-8ebc4aff04f6 processed successfully in 14.69s
+2025-10-22 20:44:37,335 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+Traceback (most recent call last):
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 534, in send_packed_command
+    self._writer.writelines(command)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 343, in writelines
+    self._transport.writelines(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\transports.py", line 123, in writelines
+    self.write(data)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 366, in write
+    self._loop_writing(data=bytes(data))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\services\memory_service.py", line 405, in get_conversation_context
+    messages = await self.redis_client.lrange(key, 0, -1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 677, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\retry.py", line 50, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 651, in _send_command_parse_response
+    await conn.send_command(*args)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 559, in send_command
+    await self.send_packed_command(
+        self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    )
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 554, in send_packed_command
+    await self.disconnect(nowait=True)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 479, in disconnect
+    self._writer.close()  # type: ignore[union-attr]
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 352, in close
+    return self._transport.close()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-10-22 20:44:38,140 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 20:44:40,181 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 20:44:40,254 - services.query_router - ERROR - Failed to generate retrieval plan: Expecting value: line 1 column 1 (char 0)
+2025-10-22 20:44:41,011 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 20:44:41,021 - services.embedding_service - INFO - Generating embeddings for 1 texts
+2025-10-22 20:44:41,403 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 20:44:41,467 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 20:44:41,729 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 20:44:41,730 - database.vector_store - INFO - Searching in collection with 24 vectors
+2025-10-22 20:44:41,989 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 20:44:41,993 - database.vector_store - INFO - Found 10 similar chunks with scores: [0.17888257, 0.17887239, 0.17886767, 0.17886537, 0.17886445, 0.17886236, 0.17886119, 0.17886081, 0.17885302, 0.17885268]
+2025-10-22 20:44:51,491 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 20:44:51,850 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/rerank "HTTP/1.1 404 Not Found"
+2025-10-22 20:44:51,863 - services.query_router - WARNING - Cohere rerank failed: status_code: 404, body: {'id': '5a6dd5d5-43e6-4077-a99f-00c7f29fbf95', 'message': "model 'rerank-english-v2.0' not found, make sure the correct model ID was used and that you have access to the model."}. Using original similarity scores.
+2025-10-22 20:44:51,875 - services.query_router - ERROR - Cohere API error: Since python sdk cohere==5.0.0, you must now use chat_stream(...) instead of chat(stream=True, ...)
+2025-10-22 20:44:51,880 - services.query_router - ERROR - Error processing query: Since python sdk cohere==5.0.0, you must now use chat_stream(...) instead of chat(stream=True, ...)
+2025-10-22 21:11:11,493 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 21:11:12,567 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:11:12,572 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 21:11:15,190 - services.query_router - INFO - QueryRouter initialized with Groq, Cohere, and VectorQueryInterface
+2025-10-22 21:11:15,217 - __main__ - INFO - Initializing RAG System...
+2025-10-22 21:11:15,217 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 21:11:15,496 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:11:16,191 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:11:16,244 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 21:11:16,843 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 21:11:16,880 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 21:11:16,880 - __main__ - INFO - RAG System initialized successfully
+2025-10-22 21:11:19,403 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333 "HTTP/1.1 200 OK"
+2025-10-22 21:11:20,261 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:11:20,263 - database.vector_store - INFO - Collection 'Rag_System' already exists
+2025-10-22 21:11:22,674 - services.query_router - INFO - QueryRouter initialized with Groq, Cohere, and VectorQueryInterface
+2025-10-22 21:11:25,080 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-10-22 21:11:26,477 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-22 21:11:26,641 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-22 21:11:28,476 - httpx - INFO - HTTP Request: GET https://api.gradio.app/v3/tunnel-request "HTTP/1.1 200 OK"
+2025-10-22 21:19:47,637 - services.rag_service - INFO - Initializing RAG service...
+2025-10-22 21:19:48,635 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:19:49,374 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:19:49,385 - services.query_router - INFO - Cohere client is healthy
+2025-10-22 21:19:49,712 - services.memory_service - INFO - Connected to Redis memory service
+2025-10-22 21:19:49,744 - services.rag_service - INFO - RAG service initialized successfully
+2025-10-22 21:19:49,746 - services.rag_service - INFO - Processing document d29759f5-3ff5-452a-9340-db2ed8bc5257 of type pdf
+2025-10-22 21:19:49,748 - core.document_processor - INFO - Processing PDF: C:\Users\acer\AppData\Local\Temp\gradio\aa67362713560cbc704e5871395827d483b131449f3a56355750729ba4c3dc63\Rohith_Resume.pdf
+2025-10-22 21:19:55,918 - httpx - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/parsing/upload "HTTP/1.1 200 OK"
+2025-10-22 21:19:57,301 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/8e7212c9-537f-4abe-95f9-72874294cbf3 "HTTP/1.1 200 OK"
+2025-10-22 21:19:59,683 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/8e7212c9-537f-4abe-95f9-72874294cbf3 "HTTP/1.1 200 OK"
+2025-10-22 21:20:00,191 - httpx - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/parsing/job/8e7212c9-537f-4abe-95f9-72874294cbf3/result/text "HTTP/1.1 200 OK"
+2025-10-22 21:20:00,209 - core.document_processor - INFO - Processed PDF into 2 chunks
+2025-10-22 21:20:00,216 - services.embedding_service - INFO - Generating embeddings for 2 texts with input_type=search_document
+2025-10-22 21:20:00,627 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 21:20:00,696 - services.embedding_service - INFO - Generated 2 embeddings
+2025-10-22 21:20:01,718 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 21:20:03,723 - database.vector_store - INFO - Stored 2 chunks in vector store
+2025-10-22 21:20:03,724 - services.rag_service - INFO - Document d29759f5-3ff5-452a-9340-db2ed8bc5257 processed successfully in 13.98s
+2025-10-22 21:21:05,507 - services.memory_service - ERROR - Error retrieving conversation context: Event loop is closed
+Traceback (most recent call last):
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 534, in send_packed_command
+    self._writer.writelines(command)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 343, in writelines
+    self._transport.writelines(data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\transports.py", line 123, in writelines
+    self.write(data)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 366, in write
+    self._loop_writing(data=bytes(data))
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Projects\Multi_Agent\rag_system\services\memory_service.py", line 405, in get_conversation_context
+    messages = await self.redis_client.lrange(key, 0, -1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 677, in execute_command
+    return await conn.retry.call_with_retry(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\retry.py", line 50, in call_with_retry
+    return await do()
+           ^^^^^^^^^^
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\client.py", line 651, in _send_command_parse_response
+    await conn.send_command(*args)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 559, in send_command
+    await self.send_packed_command(
+        self.pack_command(*args), check_health=kwargs.get("check_health", True)
+    )
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 554, in send_packed_command
+    await self.disconnect(nowait=True)
+  File "C:\Users\acer\AppData\Roaming\Python\Python313\site-packages\redis\asyncio\connection.py", line 479, in disconnect
+    self._writer.close()  # type: ignore[union-attr]
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\streams.py", line 352, in close
+    return self._transport.close()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2025-10-22 21:21:06,575 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:08,092 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 21:21:08,183 - services.query_router - INFO - Generated retrieval plan: {'core_query': 'summarize pdf document summarization text summarization automatic summarization', 'tools': ['search_vector'], 'filters': {}, 'reasoning': 'The user wants a summary of a PDF, so a semantic vector search on the content is sufficient; no specific metadata filters are required.'}
+2025-10-22 21:21:09,016 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:21:09,031 - services.embedding_service - INFO - Generating embeddings for 1 texts with input_type=search_query
+2025-10-22 21:21:09,382 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 21:21:09,419 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 21:21:09,694 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:21:09,703 - database.vector_store - INFO - Searching in collection with 26 vectors
+2025-10-22 21:21:09,983 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 21:21:09,986 - database.vector_store - INFO - Found 10 similar chunks with scores: [0.36327088, 0.36326632, 0.36326134, 0.36325878, 0.3632558, 0.36325377, 0.36325365, 0.363253, 0.36325246, 0.3632502]
+2025-10-22 21:21:14,410 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:15,056 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:15,805 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:16,256 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:16,731 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:17,162 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:17,601 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:18,168 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:18,603 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:21:18,988 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 429 Too Many Requests"
+2025-10-22 21:21:18,992 - services.query_router - WARNING - Re-ranking failed, using original similarity scores: status_code: 429, body: {'id': '4f28e65d-71de-4daf-b2f5-4351a513f9db', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:21:19,313 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 429 Too Many Requests"
+2025-10-22 21:21:19,317 - services.query_router - ERROR - Cohere API error: status_code: 429, body: {'id': '3fbe7226-53d1-4312-b9be-1fc91c366643', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:21:19,319 - services.query_router - ERROR - Error processing query: status_code: 429, body: {'id': '3fbe7226-53d1-4312-b9be-1fc91c366643', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:21:53,392 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 429 Too Many Requests"
+2025-10-22 21:21:53,398 - services.query_router - WARNING - Query expansion failed: status_code: 429, body: {'id': '2759a6cb-1e36-4b19-8a1e-3a060b69ac0f', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:21:55,664 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 21:21:55,673 - services.query_router - INFO - Generated retrieval plan: {'core_query': 'summarize pdf', 'tools': ['search_vector'], 'filters': {}, 'reasoning': 'The user requests a summary of a PDF, so a vector search over PDF content is appropriate. No additional filters are specified.'}
+2025-10-22 21:21:56,509 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:21:56,520 - services.embedding_service - INFO - Generating embeddings for 1 texts with input_type=search_query
+2025-10-22 21:21:56,872 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 21:21:56,904 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 21:21:57,179 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:21:57,464 - database.vector_store - INFO - Searching in collection with 26 vectors
+2025-10-22 21:21:58,406 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 21:21:58,531 - database.vector_store - INFO - Found 10 similar chunks with scores: [0.25235996, 0.25235754, 0.25235415, 0.25235286, 0.2523493, 0.2523452, 0.25234354, 0.25233918, 0.25233892, 0.25233114]
+2025-10-22 21:22:01,585 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 429 Too Many Requests"
+2025-10-22 21:22:01,591 - services.vector_query_interface - ERROR - Error generating answer: status_code: 429, body: {'id': '77d79276-02ba-4cdc-b173-eb2afe53dc12', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:22:03,066 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 429 Too Many Requests"
+2025-10-22 21:22:03,073 - services.query_router - WARNING - Re-ranking failed, using original similarity scores: status_code: 429, body: {'id': 'e7e08f36-8b02-4f37-87c4-9c1c7609be1c', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:22:04,659 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 429 Too Many Requests"
+2025-10-22 21:22:04,667 - services.query_router - ERROR - Cohere API error: status_code: 429, body: {'id': '86e9e9d2-afe2-4bae-b88c-987e5a02ac3a', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:22:04,670 - services.query_router - ERROR - Error processing query: status_code: 429, body: {'id': '86e9e9d2-afe2-4bae-b88c-987e5a02ac3a', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:27:49,174 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:27:50,032 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-22 21:27:50,036 - services.query_router - INFO - Generated retrieval plan: {'core_query': 'summarize the pdf summarize the pdf pdf summary document summarization text summarization automatic summarization', 'tools': ['search_vector'], 'filters': {}, 'reasoning': 'The user wants a general summary of a PDF document. A vector search on the PDF content is sufficient, and no additional metadata filters are needed.'}
+2025-10-22 21:27:51,228 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:27:51,234 - services.embedding_service - INFO - Generating embeddings for 1 texts with input_type=search_query
+2025-10-22 21:27:51,703 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 21:27:51,757 - services.embedding_service - INFO - Generated 1 embeddings
+2025-10-22 21:27:52,150 - httpx - INFO - HTTP Request: GET https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System "HTTP/1.1 200 OK"
+2025-10-22 21:27:52,154 - database.vector_store - INFO - Searching in collection with 26 vectors
+2025-10-22 21:27:52,581 - httpx - INFO - HTTP Request: POST https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points/search "HTTP/1.1 200 OK"
+2025-10-22 21:27:52,590 - database.vector_store - INFO - Found 10 similar chunks with scores: [0.3100182, 0.310008, 0.31000793, 0.31000713, 0.30999792, 0.30999637, 0.30999595, 0.30999467, 0.30999395, 0.30999374]
+2025-10-22 21:28:03,718 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:28:04,221 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:28:04,682 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:28:05,118 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:28:05,560 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:28:05,982 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:28:06,401 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:28:06,824 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:28:07,245 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 200 OK"
+2025-10-22 21:28:07,522 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 429 Too Many Requests"
+2025-10-22 21:28:07,525 - services.query_router - WARNING - Re-ranking failed, using original similarity scores: status_code: 429, body: {'id': '42229c00-aa2c-4c34-bc09-77d5f4eef0a4', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:28:07,806 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/chat "HTTP/1.1 429 Too Many Requests"
+2025-10-22 21:28:07,809 - services.query_router - ERROR - Cohere API error: status_code: 429, body: {'id': 'a4f909fc-36cb-496f-803d-ed6f4e97ee38', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:28:07,811 - services.query_router - ERROR - Error processing query: status_code: 429, body: {'id': 'a4f909fc-36cb-496f-803d-ed6f4e97ee38', 'message': "You are using a Trial key, which is limited to 10 API calls / minute. You can continue to use the Trial key for free or upgrade to a Production key with higher rate limits at 'https://dashboard.cohere.com/api-keys'. Contact us on 'https://discord.gg/XW44jPfYJu' or email us at support@cohere.com with any questions"}
+2025-10-22 21:31:06,609 - services.rag_service - INFO - Processing document 5f2c0309-8d6e-4402-a1f9-cb4b106c56f7 of type url
+2025-10-22 21:31:06,610 - core.document_processor - INFO - Processing URL: https://docs.langchain.com/oss/python/langchain/context-engineering
+2025-10-22 21:31:13,984 - core.document_processor - WARNING - Firecrawl failed: 'ScrapeResponse' object has no attribute 'get'
+2025-10-22 21:31:15,694 - core.document_processor - INFO - Processed URL into 13 chunks
+2025-10-22 21:31:15,698 - services.embedding_service - INFO - Generating embeddings for 13 texts with input_type=search_document
+2025-10-22 21:31:16,114 - httpx - INFO - HTTP Request: POST https://api.cohere.com/v1/embed "HTTP/1.1 200 OK"
+2025-10-22 21:31:16,340 - services.embedding_service - INFO - Generated 13 embeddings
+2025-10-22 21:31:18,228 - httpx - INFO - HTTP Request: PUT https://9e2dcdc1-e62e-4246-958b-c11bde4522ed.us-east4-0.gcp.cloud.qdrant.io:6333/collections/Rag_System/points?wait=true "HTTP/1.1 200 OK"
+2025-10-22 21:31:20,233 - database.vector_store - INFO - Stored 13 chunks in vector store
+2025-10-22 21:31:20,234 - services.rag_service - INFO - Document 5f2c0309-8d6e-4402-a1f9-cb4b106c56f7 processed successfully in 13.62s

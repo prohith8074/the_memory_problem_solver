@@ -1,0 +1,42 @@
+# Fixed dependencies
+redis[hiredis]>=5.0.0  # Updated Redis with async support
+qdrant-client>=1.7.3  # Updated Qdrant client
+python-dotenv>=1.0.0
+asyncio>=3.4.3
+aiohttp>=3.9.0
+nest-asyncio>=1.6.0
+
+# AI and LLM services
+cohere>=5.0.0  # Updated Cohere with rerank support
+groq>=0.4.0  # Added Groq SDK
+llama-index>=0.10.0
+llama-parse>=0.4.0
+
+# Vector database
+qdrant-client>=1.7.3
+
+# Memory and caching
+redis[hiredis]>=5.0.0  # Async Redis support
+
+# Web scraping
+trafilatura>=1.6.0
+firecrawl-py>=0.0.5
+beautifulsoup4>=4.12.0
+
+# Document processing
+PyMuPDF>=1.23.0
+pytesseract>=0.3.10  # Added OCR
+Pillow>=10.0.0
+python-docx>=1.1.0
+
+# Web UI
+gradio>=4.19.0  # Updated Gradio
+
+# Development
+pytest>=7.0.0
+pytest-asyncio>=0.23.0
+black>=24.0.0
+
+# Azure deployment (optional)
+azure-identity>=1.12.0
+azure-storage-blob>=12.16.0
